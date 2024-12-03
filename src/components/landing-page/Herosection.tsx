@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Herosection() {
   return (
-    <div className=" w-full h-[80vh] bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-start md:px-60">
+    <div className=" w-full h-[80vh] bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-start px-10 md:px-28 lg:px-40 xl:px-60">
       <div className="z-10 text-white">
         <h1 className="md:text-3xl text-xl font-bold mb-5 text-blue-900">
           Welcome to Sanshi
         </h1>
         <p className="text-3xl md:text-5xl font-bold my-2">
-          <span className="my-2">It’s always about</span> <br />
+          It’s always about <br />
           Connecting people with verified profiles.
         </p>
         <p className="text-xs my-2">

@@ -12,7 +12,7 @@ export default function Navbar() {
   };
   return (
     <div className="mb-1 flex h-[95%] w-full items-center justify-between ">
-      <div className="dark: static hidden h-14 w-full items-center justify-around border border-white bg-white px-4 shadow lg:flex">
+      <div className="dark: static  h-14 w-full items-center justify-around border border-white bg-white px-4 shadow flex">
         <div className="flex items-center">
           <SanshiIcon className="ml-5" />
         </div>
