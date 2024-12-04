@@ -3,9 +3,9 @@ import React from "react";
 
 const foundersData = [
   {
-    company: "Sanshi network pvt Ltd",
+    company: "Sanshi network tech pvt Ltd",
     name: "Vanaparthi santhosh",
-    role: "Head of Strategy, Transformation, Service Management, and Risk at Sanshi Network Pvt Ltd, overseeing strategic growth and operational excellence.",
+    role: "Head of Strategy, Transformation, Service Management, and Risk at Sanshi Network Tech Pvt Ltd, overseeing strategic growth and operational excellence.",
   },
 ];
 
