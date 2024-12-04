@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import SanshiIcon from "@/icons/sanshiIcon";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Left Section */}
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center space-x-2">
-            <SanshiIcon className="w-10 h-10" />
+            <SanshiIcon />
           </div>
 
           <p className="mt-4 text-sm">connect@sanshinetworktech.com</p>

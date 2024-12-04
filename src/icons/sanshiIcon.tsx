@@ -1,6 +1,6 @@
-import React, { ComponentProps } from "react";
+import React from "react";
 
-export default function sanshiIcon(props: ComponentProps<"svg">) {
+export default function sanshiIcon() {
   return (
     <svg
       width="132"

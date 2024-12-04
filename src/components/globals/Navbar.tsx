@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import SanshiIcon from "@/icons/sanshiIcon";
-import Link from "next/link";
 import Image from "next/image";
 export default function Navbar() {
   const scrollToSection = (id: string) => {
@@ -14,7 +13,7 @@ export default function Navbar() {
     <div className="mb-1 flex h-[95%] w-full items-center justify-between ">
       <div className="dark: static  h-14 w-full items-center justify-around border border-white bg-white px-4 shadow flex">
         <div className="flex items-center">
-          <SanshiIcon className="ml-5" />
+          <SanshiIcon />
         </div>
         {/* <div className="flex text-xs items-center gap-3 font-semibold">
           <div>
