@@ -19,7 +19,7 @@ export default function Herosection() {
         </p>
         <Link href="https://wisein.in/">
           <button className="px-4 py-2 mt-4 bg-white text-black rounded-md">
-            Visit wisen
+            Visit wiseIn
           </button>
         </Link>
       </div>
