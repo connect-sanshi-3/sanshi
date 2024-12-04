@@ -31,7 +31,7 @@ const FoundersSection = () => {
                 <h3 className="text-lg font-semibold text-gray-800">
                   {founder.company}
                 </h3>
-                <p className="font-medium ">{founder.name}</p>
+                <p className="font-medium text-gray-800">{founder.name}</p>
                 <p className="text-gray-500 ">{founder.role}</p>
                 {/* <button className="mt-4 px-4 py-2 bg-purple-600 text-white text-sm font-medium rounded-lg hover:bg-purple-700 transition">
                   Watch
