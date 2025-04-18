@@ -59,7 +59,42 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-8 border-t border-gray-300 pt-4 text-center text-sm">
+      <div className="flex text-xs justify-center gap-2 flex-wrap">
+        <div className="flex gap-1 justify-center items-center">
+          <span className="text-lg mb-1.5">.</span>
+          <Link
+            href="/terms-conditions"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            terms & conditions
+          </Link>
+        </div>
+        <div className="flex gap-1 justify-center items-center">
+          <span className="text-lg mb-1.5">.</span>
+          <Link
+            href="/cancellation-refund"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            cancellation & refund
+          </Link>
+        </div>
+        <div className="flex gap-1 justify-center items-center">
+          <span className="text-lg mb-1.5">.</span>
+          <Link
+            href="/contact-us"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            contact us
+          </Link>
+        </div>
+      </div>
+      <div className="mt-4 border-t border-gray-300 pt-4 text-center text-sm">
         © 2024 - 2034 Sanshi Network Tech Private Limited.
       </div>
     </footer>
