@@ -2,6 +2,7 @@
 import React from "react";
 import SanshiIcon from "@/icons/sanshiIcon";
 import Image from "next/image";
+import Dropdown from "../landing-page/Dropdown";
 export default function Navbar() {
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
@@ -30,6 +31,7 @@ export default function Navbar() {
           </div>
         </div> */}
         <div className="flex text-md items-center gap-4">
+          <Dropdown />
           <Image
             src="/globesvg.svg"
             width={30}
