@@ -19,23 +19,27 @@ export default function Dropdown() {
           wiseIN Pricing
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() => window.open("/terms-conditions", "_blank")}
+          onClick={() =>
+            window.open("https://www.wisein.in/terms&conditions", "_blank")
+          }
         >
           Terms & Conditions
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() => window.open("/privacy-policy", "_blank")}
+          onClick={() => window.open("https://www.wisein.in/privacy", "_blank")}
         >
           Privacy & Policy
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() => window.open("/cancellation-refund", "_blank")}
+          onClick={() =>
+            window.open("https://www.wisein.in/refund-policy", "_blank")
+          }
         >
           Cancellation & Refund
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => window.open("/contact-us", "_blank")}>
+        {/* <DropdownMenuItem onClick={() => window.open("/contact-us", "_blank")}>
           Contact-us
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
       </DropdownMenuContent>
     </DropdownMenu>
   );
