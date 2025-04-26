@@ -93,6 +93,17 @@ const Footer = () => {
             contact us
           </Link>
         </div>
+        <div className="flex gap-1 justify-center items-center">
+          <span className="text-lg mb-1.5">.</span>
+          <Link
+            href="/privacy-policy"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            privacy policy
+          </Link>
+        </div>
       </div>
       <div className="mt-4 border-t border-gray-300 pt-4 text-center text-sm">
         © 2024 - 2034 Sanshi Network Tech Private Limited.
