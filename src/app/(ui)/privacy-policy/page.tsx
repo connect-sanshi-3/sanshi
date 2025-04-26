@@ -9,11 +9,12 @@ const PrivacyPolicy = () => {
       </p>
 
       <p>
-        Sanshi Network Tech Private Limited (“Sanshi”, “we”, “our”, or “us”) is
-        committed to protecting your privacy. This Privacy Policy explains how
-        we collect, use, disclose, and safeguard your information when you use
-        our services, platforms, or interact with our websites. By accessing our
-        services, you agree to the practices described in this policy.
+        Sanshi Network Tech Private Limited (&quot;Sanshi&quot;, &quot;we&quot;,
+        &quot;our&quot;, or &quot;us&quot;) is committed to protecting your
+        privacy. This Privacy Policy explains how we collect, use, disclose, and
+        safeguard your information when you use our services, platforms, or
+        interact with our websites. By accessing our services, you agree to the
+        practices described in this policy.
       </p>
 
       <h2 className="text-base font-medium">Table of Contents</h2>
