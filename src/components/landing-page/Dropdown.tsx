@@ -14,26 +14,22 @@ export default function Dropdown() {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem
-          onClick={() => window.open("https://www.wisein.in/pricing", "_blank")}
+          onClick={() => window.open("/wisein/pricing", "_blank")}
         >
           wiseIN Pricing
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() =>
-            window.open("https://www.wisein.in/terms&conditions", "_blank")
-          }
+          onClick={() => window.open("/wisein/terms-conditions", "_blank")}
         >
           Terms & Conditions
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() => window.open("https://www.wisein.in/privacy", "_blank")}
+          onClick={() => window.open("/wisein/privacy-policy", "_blank")}
         >
           Privacy & Policy
         </DropdownMenuItem>
         <DropdownMenuItem
-          onClick={() =>
-            window.open("https://www.wisein.in/refund-policy", "_blank")
-          }
+          onClick={() => window.open("/wisein/cancellation-refund", "_blank")}
         >
           Cancellation & Refund
         </DropdownMenuItem>
